@@ -199,15 +199,7 @@ module.exports = function(grunt) {
 				src: [
 					'<%= config.dest %>/js/**/{,*/}*.js',
 					// --------------------------------
-					'!<%= config.dest %>/js/jquery-1.9.1.min.js',
-					'!<%= config.dest %>/js/jquery.cookie.js',
-					'!<%= config.dest %>/js/jquery.form.js',
-					'!<%= config.dest %>/js/mui.js',
-					'!<%= config.dest %>/js/mui.picker.min.js',
-					'!<%= config.dest %>/js/mui.previewimage.js',
-					'!<%= config.dest %>/js/mui.view.js',
-					'!<%= config.dest %>/js/mui.zoom.js',
-					'!<%= config.dest %>/js/plax.js'
+					'!<%= config.dest %>/js/jquery-1.9.1.min.js'					
 				]
 			}
 		},
@@ -256,59 +248,9 @@ module.exports = function(grunt) {
 		concat: {
 			mui: {
 				src: [
-					 '<%= config.src %>/js/mui/mui.js',
-		          '<%= config.src %>/js/mui/mui.detect.js',
-		          '<%= config.src %>/js/mui/mui.detect.5+.js',
-		          '<%= config.src %>/js/mui/mui.event.js',
-		          '<%= config.src %>/js/mui/mui.target.js',
-		          '<%= config.src %>/js/mui/mui.fixed.js',
-		          '<%= config.src %>/js/mui/mui.fixed.bind.js',
-		          '<%= config.src %>/js/mui/mui.fixed.classlist.js',
-		          '<%= config.src %>/js/mui/mui.fixed.animation.js',
-		          '<%= config.src %>/js/mui/mui.fixed.fastclick.js',
-		          '<%= config.src %>/js/mui/mui.fixed.keyboard.js',
-		          '<%= config.src %>/js/mui/mui.namespace.js',
-		          '<%= config.src %>/js/mui/mui.gestures.js',
-		          '<%= config.src %>/js/mui/mui.gestures.flick.js',
-		          '<%= config.src %>/js/mui/mui.gestures.swipe.js',
-		          '<%= config.src %>/js/mui/mui.gestures.drag.js',
-		          '<%= config.src %>/js/mui/mui.gestures.tap.js',
-		          '<%= config.src %>/js/mui/mui.gestures.longtap.js',
-		          '<%= config.src %>/js/mui/mui.gestures.hold.js',
-		          '<%= config.src %>/js/mui/mui.gestures.pinch.js',
-		          '<%= config.src %>/js/mui/mui.init.js',
-		          '<%= config.src %>/js/mui/mui.init.5+.js',
-		          '<%= config.src %>/js/mui/mui.back.js',
-		          '<%= config.src %>/js/mui/mui.back.5+.js',
-		          '<%= config.src %>/js/mui/mui.init.pullrefresh.js',
-		          '<%= config.src %>/js/mui/mui.ajax.js',
-		          '<%= config.src %>/js/mui/mui.ajax.5+.js',
-		          '<%= config.src %>/js/mui/mui.layout.js',
-		          '<%= config.src %>/js/mui/mui.animation.js',
-		          '<%= config.src %>/js/mui/mui.class.js',
-		          '<%= config.src %>/js/mui/mui.pullRefresh.js',
-		          '<%= config.src %>/js/mui/mui.class.scroll.js',
-		          '<%= config.src %>/js/mui/mui.class.scroll.pullrefresh.js',
-		          '<%= config.src %>/js/mui/mui.class.scroll.slider.js',
-		          '<%= config.src %>/js/mui/pullrefresh.5+.js',
-		          '<%= config.src %>/js/mui/mui.offcanvas.js',
-		          '<%= config.src %>/js/mui/actions.js',
-		          '<%= config.src %>/js/mui/modals.js',
-		          '<%= config.src %>/js/mui/popovers.js',
-		          '<%= config.src %>/js/mui/segmented-controllers.js',
-		          '<%= config.src %>/js/mui/switches.js',
-		          '<%= config.src %>/js/mui/tableviews.js',
-		          '<%= config.src %>/js/mui/mui.dialog.alert.js',
-		          '<%= config.src %>/js/mui/mui.dialog.confirm.js',
-		          '<%= config.src %>/js/mui/mui.dialog.prompt.js',
-		          '<%= config.src %>/js/mui/mui.dialog.toast.js',
-		          '<%= config.src %>/js/mui/mui.popup.js',
-		          '<%= config.src %>/js/mui/mui.progressbar.js',
-		          '<%= config.src %>/js/mui/input.plugin.js',
-		          '<%= config.src %>/js/mui/mui.transparent.js',
-		          '<%= config.src %>/js/mui/mui.number.js'
+				 '<%= config.src %>/js/....',		          
 				],
-				dest: '<%= config.dest %>/js/mui.js'
+				dest: '<%= config.dest %>/js/...'
 			}
 		},
 
