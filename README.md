@@ -317,18 +317,8 @@ module.exports = function(grunt) {
 				cssVarMap: function(sprite) {
 					sprite.name = 'icon-' + sprite.name;
 				}
-			},
-			huiyuan:{
-				src: '<%= config.src %>/images/spriteshuiyuan/*.png',
-				retinaSrcFilter: '<%= config.src %>/images/spriteshuiyuan/*@2x.png',
-				dest: '<%= config.src %>/images/spriteshuiyuan.png',								
-				retinaDest: '<%= config.src %>/images/spriteshuiyuan-2x.png',
-				destCss: '<%= config.src %>/sass/_spriteshuiyuan.scss',	
-				cssTemplate: '<%= config.src %>/template/scss_retina.template.handlebars',			
-				cssVarMap: function(sprite) {
-					sprite.name = 'iconh-' + sprite.name;
-				}
 			}
+			
 		}
 
 	});
